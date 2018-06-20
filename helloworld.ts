@@ -1,8 +1,7 @@
-export class helloworld{
-    sayhi()
-    {
+export class HelloWorld {
+    sayhi() {
      console.log("Testing ts 1");
     }
 }
-let a = new helloworld();
+let a = new HelloWorld();
 a.sayhi();

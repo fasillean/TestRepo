@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var helloworld = /** @class */ (function () {
-    function helloworld() {
+var HelloWorld = /** @class */ (function () {
+    function HelloWorld() {
     }
-    helloworld.prototype.sayhi = function () {
+    HelloWorld.prototype.sayhi = function () {
         console.log("Testing ts 1");
     };
-    return helloworld;
+    return HelloWorld;
 }());
-exports.helloworld = helloworld;
-var a = new helloworld();
+exports.HelloWorld = HelloWorld;
+var a = new HelloWorld();
 a.sayhi();
 //# sourceMappingURL=helloworld.js.map
