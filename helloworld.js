@@ -1,14 +1,13 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var HelloWorld = /** @class */ (function () {
-    function HelloWorld() {
+var a = 1;
+var funtest = function (arg1) {
+    var nums = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        nums[_i - 1] = arguments[_i];
     }
-    HelloWorld.prototype.sayhi = function () {
-        console.log("Testing ts 1");
-    };
-    return HelloWorld;
-}());
-exports.HelloWorld = HelloWorld;
-var a = new HelloWorld();
-a.sayhi();
+    for (var i = 0; i < nums.length; i++) {
+        a += nums[i];
+    }
+    return a + arg1;
+};
+console.log(funtest(1, 2, 3));
 //# sourceMappingURL=helloworld.js.map
