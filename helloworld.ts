@@ -1,4 +1,4 @@
-var  a:number = 5 ;
+var  a:number = 6 ;
 var funtest = (arg1: number,...nums:number[]):number=> {
    for(var i:number=0 ; i<nums.length;i++) {
     a+=nums[i];
